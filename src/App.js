@@ -1,12 +1,14 @@
 import React from "react";
+import "./App.css";
+
+import Calculator from "./Calculator.js";
 
 const appStyle = {
-  maxWidth: 1300,
-  minHeight: 574
+  height: 574
 };
 
 const App = () => {
-  return <div style={appStyle}>Welcome to LazyChun !</div>;
+  return <div style={appStyle}><Calculator/></div>;
 };
 
 export default App;
